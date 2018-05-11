@@ -1,0 +1,34 @@
+{
+  "name": "redpandacoding/alfred",
+  "description": "FakeAlfred is a PHP library that will generate fake data for you. Utilizing fzaninotto/faker and knpuniversity/lorem-ipsum-bundle",
+  "type": "library",
+  "require": {
+    "php": "^7.1.3",
+    "fzaninotto/faker": "^1.7"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.1"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jordan Wamser",
+      "email": "jwamser@redpandacoding.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Alfred\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Alfred\\Test\\": "test/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.0-dev"
+    }
+  }
+}
