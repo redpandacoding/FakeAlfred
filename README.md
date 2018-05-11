@@ -16,13 +16,13 @@ composer require redpandacoding/fakealfred
 Usage
 -----
 
-To  use this with [Faker](https://github.com/fzaninotto/Faker), you must add the `Alfred\Provider\Material` class to the Faker generator:
+To  use this with [Faker](https://github.com/fzaninotto/Faker), you must add the `Fake\Alfred\Provider\Material` class to the Faker generator:
 
 ```php
 <?php
 
 $faker = \Faker\Factory::create();
-$faker->addProvider(new \Alfred\Provider\Material($faker));
+$faker->addProvider(new \Fake\Alfred\Provider\Material($faker));
 
 // Generator
 $faker->materialName();      // A random Material Name

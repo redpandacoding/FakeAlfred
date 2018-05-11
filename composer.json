@@ -1,5 +1,5 @@
 {
-  "name": "redpandacoding/alfred",
+  "name": "redpandacoding/fakealfred",
   "description": "FakeAlfred is a PHP library that will generate fake data for you. Utilizing fzaninotto/faker and knpuniversity/lorem-ipsum-bundle",
   "type": "library",
   "require": {
@@ -18,12 +18,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "Alfred\\": "src/"
+      "Fake\\Alfred\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Alfred\\Test\\": "test/"
+      "Fake\\Alfred\\Test\\": "test/"
     }
   },
   "extra": {

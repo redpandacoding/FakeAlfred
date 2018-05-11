@@ -7,7 +7,7 @@
  * File Name: MaterialProvider.php
  */
 
-namespace Alfred\Provider;
+namespace Fake\Alfred\Provider;
 
 use Faker\Provider\Base;
 
